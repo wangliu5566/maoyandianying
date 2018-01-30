@@ -1,0 +1,17 @@
+.lHeader{width: 100%}
+.lHeaderAll{width: 870px;margin: 0 auto}
+.lContent{margin: 40px 0 100px 0;}
+.lContent .lP3{clear: left;font-size: 12px;color: #ccc;margin-top: 36px;text-align: center}
+.lContentU{height: 476px}
+.lContentU .lImg{float: left}
+.lHeaderR{height: 220px;width: 270px;margin-top: 100px;}
+.lHeaderR img{width: 5%;vertical-align: middle}
+.lHeaderR span{display: inline;font-size: 10px}
+.lHeaderR strong{font-weight: normal;margin-right: 112px;font-size: 14px}
+.lBtnOne{border: 1px solid #ddd;height: 34px ;width: 268px;margin: 10px 0 16px 0}
+.lBtnTwo{border: 1px solid #ddd;height: 34px ;width: 268px;margin: 0 0 10px 0}
+#loginBtn{height: 34px ;width: 270px;margin: 14px 0 10px 0;background-color: #ea3f44;color: white}
+.lSpan{font-size: 12px;margin-right: 114px}
+.lB{font-size: 12px;color: #ea3f44;font-weight: normal}
+.lP2{font-size: 14px}
+.lP2 #regBtn{color: #ea3f44}

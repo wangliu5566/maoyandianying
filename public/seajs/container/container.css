@@ -1,0 +1,103 @@
+/*轮播部分*/
+#wrap{height: 443px;width: 100%;position: relative}
+#wrap img{width: 100%}
+.circle{width:132px;height:30px;position: absolute;bottom:26px;left:0;right:0;margin: auto}
+.circle li{width: 20px;height: 20px;margin-right:10px;background-color:white;float: left;border-radius: 20px}
+.circle .selected{background-color: green}
+
+.contentAll{width: 100%;overflow: hidden}
+/*正在热映*/
+.active{height: 598px;width: 1184px;margin:0 auto}
+.activeL{height: 598px;width: 772px;margin: 90px 0 80px 0}
+.strong{color: #ef4238;font-size: 22px}
+.span{color: #ef4238;font-size: 14px}
+.activeB{clear:left;padding-top: 20px;}
+.cList{height:580px;width:772px;margin-bottom: 30px;clear: left}
+.cList span{display: block}
+.cList span{border: 1px solid #efefef;height: 40px;text-align: center;line-height: 40px;color: #ef4238;font-size: 16px}
+.itemOne{height: 260px;width: 160px;}
+.itemOne{padding-right: 30px;margin-bottom: 30px}
+
+.activeR{height: 598px;width: 360px;margin: 90px 0 80px 0;overflow: hidden}
+.activeR strong{font-size: 22px;color: #ef4238}
+.listOne{margin-top: 20px}
+.itemTwo{position: relative;border: 1px solid #cccccc;height: 80px;}
+.itemImg{position: absolute;left: 0;top: 0}
+.itemTwo img{float: left;margin-right: 10px}
+.activeG{margin: 18px 0 10px 10px;height: 80px}
+.activeG strong{color: #333;padding-bottom: 10px}
+.activeG span{color: #ef4238;font-weight: bolder;font-size: 14px}
+.itemThree{padding-top: 12px}
+.itemThree strong{color: #333;padding-bottom: 10px;font-weight: 100;font-size: 20px}
+.br{color: #ef4238;font-weight: 600;font-size: 16px}
+.em{font-size: 22px;padding-right: 10px;color: #ef4238}
+.box{height: 106px;border: 1px solid #cccccc;margin-top: 40px}
+.boxL{width: 40px;background-color:#ef4238;height: 106px;}
+.boxL p{color: white;font-size: 18px;margin: 10px}
+.boxR{margin: 22px 12px}
+.boxR strong{font-size: 26px}
+.boxR span{color: #ef4238;font-weight: 500;font-size: 14px}
+.boxP{font-size: 14px;margin-top: 12px;color: #999}
+
+/*即将上映*/
+.online{height: 598px;width: 1184px;margin:0 auto;}
+.online strong,span{display: block}
+.online b,a{display:inline-block}
+.listTwo{height:298px;margin-bottom: 30px}
+.onlineL{height: 598px;width: 742px;margin: 0 0 90px 0}
+.onlineU .strong{color: #2d98f3;font-size: 22px}
+.onlineU .span{color: #2d98f3;font-size: 14px}
+.onlineB{clear:left;padding-top: 20px}
+.onlineB strong{color: #fec58d;width:160px;text-align: center;height: 36px;line-height: 36px;background-color: #fbfbfb}
+.itemFour{height: 298px;width: 160px;border: 1px solid #efefef}
+.itemFour b{color: #999;font-size: 14px;font-weight: lighter;width: 80px;height: 40px;line-height: 40px;text-align: center;border-right: 1px dashed #efefef}
+.itemFour a{color: #2d98f3;font-size: 14px;font-weight: lighter;width: 79px;height: 40px;line-height: 40px;text-align: center}
+.itemFour+.itemFour{margin-left: 30px}
+
+.onlineR{height: 598px;width: 360px;margin: 0 0 90px 0; }
+.onlineH{width: 360px;height: 30px}
+.onlineR strong{font-size: 22px;color: #ffb400;float: left}
+.onlineR span{font-size: 14px;color: #ffb400;float: right;}
+.listThree{margin-top: 20px;}
+.itemFive{position: relative;height: 194px;border: 1px solid #efefef}
+.itemFive img{float: left;margin-right: 10px}
+.onlineG{padding: 60px 0 55px 10px;height: 194px;}
+.onlineG strong{color: #333;padding-bottom: 10px;font-weight: 200;width: 200px}
+.onlineG p{color: #999;font-weight: bolder;font-size: 14px;padding-bottom: 10px;}
+.onlineG b{color: #ffb400;}
+.itemSeven{width: 170px;margin: 20px 16px 15px 0;border: 1px solid #efefef}
+.itemSeven strong{color: #333;margin: 10px 0 6px 10px;font-weight: 200;font-size: 18px}
+.itemSeven span{margin:0 70px 6px 0}
+.itemEight{width: 170px;margin: 20px 0 15px 0;border: 1px solid #efefef}
+.itemEight strong{color: #333;padding: 10px 0 6px 10px;font-weight: 200;font-size: 18px}
+.itemEight span{margin:0 70px 6px 0}
+.sevenImg{float: left}
+.itemSix{clear: left}
+.itemSix strong{color: #333;padding-bottom: 10px;font-weight: 100;font-size: 18px;}
+.itemSix .br{color: #ffb400;font-weight: 600;font-size: 16px}
+.itemSix .em{font-size: 22px;padding-right: 10px;color: #333;}
+
+/*热播电影*/
+.hot{height: 520px;width: 1184px;margin:0 auto;}
+.hotL{height: 520px;width: 772px;margin: 80px 0 100px 0}
+.hotItem{width: 320px}
+.hotItem strong{color: #ef4238;font-size: 22px}
+.hotItem span{display: inline-block;font-size: 14px}
+.hotItem a{padding-right: 12px}
+.hotR{height: 520px;width: 360px;margin: 80px 0 100px 0}
+.hotB{height: 472px;clear: left}
+.listFour{height: 220px;overflow: hidden;padding: 24px 0 30px 0}
+.itemTen{padding-left: 30px}
+.hotH{width: 360px;height: 30px;padding-bottom:24px;clear: left}
+.itemF{position: relative;border: 1px solid #cccccc;height: 80px;}
+.itemF{position: absolute;left: 0;top: 0}
+.hotR strong{font-size: 22px;color: #ffb400;float: left}
+.hotR span{font-size: 14px;color: #ffb400;float: right;}
+.hotG{margin: 18px 0 10px 10px;height: 80px;}
+.hotG strong{color: #333;padding-bottom: 10px;width: 200px;}
+.hotG span{color: #ffb400;font-weight: bolder;font-size: 14px;padding-right: 150px}
+.listSix{height: 520px;width: 360px}
+.itemE{overflow: hidden;padding-top: 12px}
+.itemE strong{color: #333;padding-bottom: 10px;font-weight: 100;font-size: 18px;}
+.itemE .br{color: #ffb400;font-weight: 600;font-size: 16px;float:right}
+.itemE .em{font-size: 22px;padding-right: 10px;color: #333;float:left}

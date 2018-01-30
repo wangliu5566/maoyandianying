@@ -1,0 +1,53 @@
+.bContent{width: 100%;border-top: 3px solid #ddd;}
+.bContentAll{width: 980px;margin: 0 auto;overflow: hidden;clear: left}
+.bList{height: 36px}
+.bItem{width: 60px;font-size: 12px}
+.bItem span,b{display: inline}
+.bItem b{font-size: 10px;font-weight: lighter;color: #83c6c0;height: 36px;line-height: 36px}
+.bList .bActive span{display: none}
+.bList .bActive b{color: black;}
+.bContentImg{clear: left}
+
+.bSelectAll{width: 978px;height: 840px;border: 1px solid #ddd;margin: 8px 0 16px 0;overflow: hidden}
+/*选座*/
+.bSelect{width: 714px;overflow: hidden}
+.bSelectOne{height: 44px;width: 714px;}
+.bSelectOne img{width: 100%;vertical-align: middle}
+.bSelectTwo img{width: 100%;vertical-align: middle}
+.bSelectThree{margin:50px 0 0 0;}
+.bSelectList{width: 500px;margin: 0 auto}
+.bSelectList li{margin-left: 25px}
+.bSelectList .able{width:22px;height:20px;float:left;background: url("/images/选座/2_07.png")}
+.bSelectList .choose{width:20px;height:20px;float:left;background: url("/images/选座/2_09.png")}
+.bSelectList .lover{width:20px;height:20px;float:left;background: url("/images/选座/2_03.png")}
+.bSelectList .disable{width:20px;height:20px;float:left;background: url("/images/选座/2_20.png")}
+/*订单*/
+.bDing{width: 260px;height: 840px;border-left: 1px solid #ddd;background-color: #fafafa;}
+.bDingOne{height: 102px;width: 230px;padding: 14px 0 10px 14px;border-bottom: 1px solid #ddd;}
+.bDingOneL{height: 100px;width: 70px}
+.bDingOneL img{width: 100%;margin-bottom: 20px}
+.bDingOneR{margin-left: 10px}
+.bDingOneLeft p{font-size: 14px;}
+.bDingOneLeft{width: 120px;height: 70px;}
+
+.bDingTwo{height: 178px;width: 234px;margin-left: 14px;border-bottom: 1px solid #ddd}
+.bDingItem span{display: inline;font-size: 12px;color: #999;margin-right: 20px}
+.bDingItem+.bDingItem{padding-top: 12px}
+.bDingItem strong{font-size: 12px}
+.bDingTwoList{padding: 18px 0 24px 0}
+
+.bDingThree{height: 150px;width: 234px;margin-left: 14px;border-bottom: 1px solid #ddd;}
+.bDingU{margin: 16px 0 24px 0;height: 64px}
+.bDingU span{display: inline;font-size: 12px;float: left;margin-right: 20px}
+.bDingItemOne{margin-right: 20px;margin-top: 20px}
+.bDingBtn{width: 74px;height: 24px;border: 1px dashed #ddd}
+.bDingTwoListOne{width:234px; }
+.bDingItemTwo+.bDingItemTwo{margin-left: 28px}
+.bDingP{font-size: 12px;color: #ccc;padding: 14px 0 14px 0;height: 20px;clear: left}
+.bDingP .totalPrice{display: inline;font-size: 20px;color: #ff8800;margin-right: 20px}
+
+.bDingFour{height: 104px;width: 234px;margin-left: 14px;border-bottom: 1px solid #ddd;clear: left}
+.bDingFour p{margin: 4px 0 16px 0;font-size: 12px;color: #ccc}
+.bDingBtnTwo{width: 230px;height: 42px;background-color: #ff8800;color: white}
+
+.bDingFiveOne{margin: 0 0 0 24px}

@@ -1,0 +1,23 @@
+/*头部*/
+.header{width: 100%;height: 82px;}
+.headerAll{width: 1184px;margin: 0 auto;overflow: hidden}
+.hLeft{height: 82px;line-height: 82px}
+.hLeft img{vertical-align: middle}
+
+.hMiddle{width: 328px;margin:0 130px 0 56px}
+.list{height: 82px}
+.item{width: 82px;text-align: center;line-height: 82px;}
+.item:hover{background-color: red}
+
+.hRight{line-height: 82px;height: 82px}
+.hRight img{vertical-align: middle}
+.hRight_two{margin-left: 10px}
+.hRight_two img{position: relative;right: 40px;top:-1px}
+.input{border: 1px solid #ccc;width:200px;height: 38px;background-color: #faf8fa;border-radius: 20px}
+.hRight_three img{width: 40%;margin-left: -20px}
+/*内容部分*/
+/*底部*/
+.footer{width: 100%;height:172px;background-color: #262426}
+.footerAll{text-align: center;padding: 60px 0}
+.footerAll p{color:#666;font-size: 14px}
+.footerAll a{color:#ef4238}

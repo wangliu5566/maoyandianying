@@ -1,0 +1,21 @@
+.rHeader{width: 100%;height: 60px;border-bottom: 2px solid #e02025}
+.rHeaderAll{margin-left: 192px;}
+.rHeaderImg{height: 42px;width: 134px;padding-top: 8px}
+.rHeaderImg img{width: 100%}
+
+.rContent{width: 100%;}
+.rContentAll{height: 316px;width: 484px;margin: 36px 0 36px 220px}
+.rContentAll input{border: 1px solid #ddd;height: 36px;width: 258px;}
+.rContentIn1{margin-left: 32px}
+.rContentIn1 span{display: inline;font-size: 12px;color: #999;margin-left: 6px}
+#rBtn{margin:8px 0 8px 88px;background-color: #e9e9e9;border: 1px solid #ddd; }
+.rContentIn3{margin:14px 0 4px 16px}
+.rButton{margin: 0 0 8px 88px}
+.rBtnOne{width: 82px;height: 18px;background-color: #eee;color: white}
+.rContentIn4{margin-left: 16px}
+.rBtnThree{width: 180px;height: 30px;margin:14px 0 14px 88px;background-color: #e1252a;color: white}
+.rP{margin-left: 88px;}
+.rP a{font-size: 14px;color: #e1252a}
+
+.rFooter{height: 224px;width: 100%;border-top:1px solid #ddd;text-align: center}
+.rFooter p{color: #999;font-size: 14px;margin-top: 24px}
